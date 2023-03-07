@@ -1,0 +1,52 @@
+*{
+    margin: 1;
+    padding: 1;
+}
+
+body{
+    background-image: url(../assets/img/para\ poster\ .jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.caja{
+    height: 100vh;
+    display: grid;
+    gap:1rem ;
+    grid-template-rows: 0.6fr 2fr 0.7fr 0.3fr;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas: "header nav nav nav"
+    "main main aside aside"
+    "section section section section"
+    "footer footer footer footer"
+    ;
+}
+header{
+    grid-area: header;
+    justify-content: center;
+}
+
+nav{
+    grid-area: nav;
+    background-color: darkgreen;
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(22, 223, 89);
+}
+
+aside{
+    grid-area: aside;
+    background-color: rgb(199, 18, 34);
+}
+
+section{
+    grid-area: section;
+    background-color: rgb(26, 57, 192);
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgb(35, 182, 133);
+}

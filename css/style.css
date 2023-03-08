@@ -28,10 +28,11 @@ body#menu{
     margin: 0.5rem;
 }
 .cabeza{
-    align-items: left;
     width: 600px;
 }
 .boton{
+    align-items: flex-end;
+    justify-content: center;
     width: 650px;
 }
 .selector{
@@ -44,7 +45,7 @@ background-color: darkslategrey;
     height: 100vh;
     display: grid;
     gap:1rem ;
-    grid-template-rows: 0.6fr 2fr 0.5fr 0.2fr;
+    grid-template-rows: 0.6fr 2fr 0.2fr 0.2fr;
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-areas: "header nav nav nav"
     "main main aside aside"
@@ -60,6 +61,8 @@ header{
 nav{
     grid-area: nav;
     background-color: darkgreen;
+    text-align: right;
+    justify-content:center;
 }
 ul{
     list-style-type: none;
@@ -112,6 +115,8 @@ aside{
 section{
     grid-area: section;
     background-color: rgb(26, 57, 192);
+    align-content: center;
+    justify-content: center;
 }
 
 footer{

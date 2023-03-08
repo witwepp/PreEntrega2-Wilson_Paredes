@@ -3,11 +3,22 @@
     padding: 1;
 }
 
-body{
+body#principal{
     background-image: url(../assets/img/para\ poster\ .jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+}
+body#menu{
+    background-image: url(../assets/img/fondo\ paginas.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.menu{
+    display: flex;
+
 }
 .caja{
     height: 100vh;
@@ -50,7 +61,9 @@ aside{
     grid-area: aside;
     background-color: rgb(199, 18, 34);
 }
-
+.video{
+    < div style="text-align:center;" >
+}
 section{
     grid-area: section;
     background-color: rgb(26, 57, 192);

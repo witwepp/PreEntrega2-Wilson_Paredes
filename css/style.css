@@ -1,6 +1,7 @@
 *{
-    margin: 1;
-    padding: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body#principal{
@@ -17,14 +18,33 @@ body#menu{
 
 }
 .menu{
+    width: 1280px;
+    height: 1fr;
+    padding: 0.5rem;
     display: flex;
+    flex-direction: row;
+}
+.carta{
+    margin: 0.5rem;
+}
+.cabeza{
+    align-items: left;
+    width: 600px;
+}
+.boton{
+    width: 650px;
+}
+.selector{
+background-color: darkslategrey;
+    width: auto;
+    height: 700px;
 
 }
 .caja{
     height: 100vh;
     display: grid;
     gap:1rem ;
-    grid-template-rows: 0.6fr 2fr 0.7fr 0.3fr;
+    grid-template-rows: 0.6fr 2fr 0.5fr 0.2fr;
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-areas: "header nav nav nav"
     "main main aside aside"
@@ -44,6 +64,31 @@ nav{
 ul{
     list-style-type: none;
 }
+.boton1{
+    color: white;
+  display: inline-block;
+  list-style-position: outside;
+  }
+  .boton2{
+      color: white;
+    display: inline-block;
+    list-style-position: outside;
+    }
+    .boton3{
+      color: white;
+    display: inline-block;
+    list-style-position: outside;
+    }
+    .boton4{
+      color: white;
+    display: inline-block;
+    list-style-position: outside;
+    }
+    .boton5{
+      color: white;
+    display: inline-block;
+    list-style-position: outside;
+    }
 main{
     grid-area: main;
     

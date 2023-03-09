@@ -45,7 +45,7 @@ background-color: darkslategrey;
     height: 100vh;
     display: grid;
     gap:1rem ;
-    grid-template-rows: 0.6fr 2fr 0.2fr 0.2fr;
+    grid-template-rows: 0.6fr 2fr 0.2fr 0.1fr;
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-areas: "header nav nav nav"
     "main main aside aside"
@@ -60,7 +60,6 @@ header{
 
 nav{
     grid-area: nav;
-    background-color: darkgreen;
     text-align: right;
     justify-content:center;
 }
@@ -101,7 +100,7 @@ margin: 12px;
 color: aliceblue;
 
 }
-p{
+.texto{
     color: aliceblue;
     text-align: justify
 }
@@ -118,8 +117,14 @@ section{
     align-content: center;
     justify-content: center;
 }
+.link{
+    align-content: center;
+    justify-content: center;
+}
 
 footer{
     grid-area: footer;
-    background-color: rgb(35, 182, 133);
+}
+p{
+    text-align: center;
 }

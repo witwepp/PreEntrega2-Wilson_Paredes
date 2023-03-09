@@ -38,7 +38,7 @@ body#menu{
 .selector{
 background-color: darkslategrey;
     width: auto;
-    height: 700px;
+    height: 600px;
 
 }
 .caja{
@@ -124,7 +124,10 @@ section{
 
 footer{
     grid-area: footer;
+    position: relative;
 }
 p{
     text-align: center;
+    color: aliceblue;
+    margin-top: 5px;  
 }

@@ -36,9 +36,9 @@ body#menu{
     width: 650px;
 }
 .selector{
-background-color: darkslategrey;
+background-color: rgb(18, 22, 83);
     width: auto;
-    height: 600px;
+    height: 500px;
 
 }
 .caja{

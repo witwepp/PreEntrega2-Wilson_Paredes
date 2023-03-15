@@ -93,6 +93,10 @@ ul{
     }
 main{
     grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:left;
     
 }
 H1{
@@ -110,7 +114,10 @@ aside{
    
 }
 .video{
-    < div style="text-align:center;" >
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
 }
 section{
     grid-area: section;

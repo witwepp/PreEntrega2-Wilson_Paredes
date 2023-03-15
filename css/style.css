@@ -54,14 +54,20 @@ background-color: rgb(18, 22, 83);
     ;
 }
 header{
-    grid-area: header;
+    
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items:center;
 }
 
 nav{
     grid-area: nav;
     text-align: right;
-    justify-content:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
 }
 ul{
     list-style-type: none;
@@ -100,11 +106,12 @@ main{
     
 }
 H1{
-margin: 12px;
+margin: 15px;
 color: aliceblue;
 
 }
 .texto{
+    margin: 3%;
     color: aliceblue;
     text-align: justify
 }
@@ -115,7 +122,7 @@ aside{
 }
 .video{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items:center;
 }
@@ -126,10 +133,12 @@ section{
     
 }
 .logos{
+    margin: 2%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items:center;
+    
 }
 
 footer{
